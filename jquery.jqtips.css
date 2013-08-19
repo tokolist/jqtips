@@ -1,0 +1,23 @@
+/*
+jqTips based on Cameron Zemek's Hovertip ideas
+Author: Pelesh Yaroslav aka Tokolist (http://tokolist.com)
+License: MIT (http://en.wikipedia.org/wiki/MIT_License)
+*/
+
+.jqtips {
+    position: absolute;
+    padding: 5px 8px;
+    z-index: 2;
+    max-width: 300px;
+	_width: expression(this.clientWidth>300 ? '300px' : 'auto');
+    color: #303030;
+    background-color: #f5f5b5;
+    border: 1px solid #deca7e;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+.jqtips-title {
+	display: none;
+}
